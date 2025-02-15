@@ -8,7 +8,7 @@ Algoritmo Area_triangilo
 	Leer lado_tres
 	//caja negra
 	semi<-(lado_uno+lado_dos+lado_tres)/2
-	area<-((semi(semi-lado_uno)*(semi-lado_dos)*(semi-lado_tres)))^2
+	area<-((semi*(semi-lado_uno)*(semi-lado_dos)*(semi-lado_tres)))^(1/2)
 	//salida
 	Escribir area, " Area del triangulo "
 FinAlgoritmo
